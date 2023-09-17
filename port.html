@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/eb8121f7fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/rohitspelling.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#"> HOME </a></li>
+                    <li><a href="#"> ABOUT </a></li>
+                    <li><a href="#"> SERVICES </a></li>
+                    <li><a href="#"> PORFOLIO </a></li>
+                    <li><a href="#"> CONTACT </a></li>
+                    <i class="fa-brands fa-x-twitter" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>SOFTWARE ENGINEER</h4>
+                <h2>HII,I'M <span>ROHIT</span></h2>
+                <h1>TOH KAISE HAY <span>APP LOG!!</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------about section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user.jpg" height="500px" width="300px">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-tittle"> About Me</h1>
+                    <p>
+                        Welcome to my webpage! I'm a driven and aspiring software engineer currently in my third year of
+                        studies,
+                        embarking on an exciting journey of learning and innovation in the world of technology.
+                        With a deep passion for coding and problem-solving, I've already gained valuable experience in
+                        various programming languages and software development methodologies.
+                        My mission is to leverage my skills and creativity to build innovative solutions that make a
+                        real impact.
+                        As I continue to learn and grow, I'm excited to collaborate on new projects, tackle challenging
+                        problems, and contribute to the ever-evolving landscape of software engineering.
+                        Join me on this exciting adventure as I strive to push boundaries, develop cutting-edge
+                        software, and shape the future of technology.
+                        Thank you for visiting, and let's connect to explore how we can work together to build a better
+                        digital world.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DEVELOPMENT</span><br> Designing web apps</li>
+                            <li><span>AI DEVELOPMENT</span><br> Designing AI bots and editors</li>
+                            <li><span>APP DEVELOPMENT</span><br> Building up APP in real life use</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>WEB DEVELOPMENT1</span> <br>Designing web apps</li>
+                            <li><span>AI DEVELOPMENT1</span> <br>Designing AI bots and editors</li>
+                            <li><span>APP DEVELOPMENT1</span><br> Building up APP in real life use</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>WEB DEVELOPMENT2</span> <br> web apps</li>
+                            <li><span>AI DEVELOPMENT2</span> <br> AI bots and editors</li>
+                            <li><span>APP DEVELOPMENT2</span><br> Building up APP in real life use</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle"> My SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design </h2>
+                    <p>
+                        hey rohit here lets talk about the dos and donts while making a web structure
+                    </p><a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-snowflake"></i>
+                    <h2>AI DEVELOPMENT </h2>
+                    <p>
+                        hey rohit here lets talk about the dos and donts while making a web structure
+                    </p><a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>APP DEVELOPMENT</h2>
+                    <p>
+                        hey rohit here lets talk about the dos and donts while making a web structure
+                    </p><a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------portfolio--------------- -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/jarvis.gif" >
+                    <div class="layer1">
+                        <h3>ULTRON</h3>
+                        <p>hello i am ultron made by ROHIT,
+                            this is really cool
+                            <br> <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer1">
+                        <h3>JARVIS</h3>
+                        <p>
+                            hello this is avengers tower.welcome to marvel
+                            i hope you enjoy my presence
+                            <br>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.gif">
+                    <div class="layer1">
+                        <h3>TESSERACT</h3>
+                        <p> I am one of the infinity stone fitted in a cube.
+                            <br> <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle"> Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>rg6565616@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7738959396</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <div>
+                        <a href="images/tr6fr1bhylo01.webp" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="NAME" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="7" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-400px";
+        }
+    </script>
+
+</body>
+
+</html>
